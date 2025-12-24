@@ -5,6 +5,8 @@ The game focuses on fluid spell casting, responsive combat animations, and a cle
 
 > Unity handles the magic.
 > React handles the interface.
+<img width="1495" height="811" alt="image" src="https://github.com/user-attachments/assets/88b5ef72-5a9d-4852-b81e-72b1520359ba" />
+
 
 ---
 
