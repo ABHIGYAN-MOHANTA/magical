@@ -12,8 +12,10 @@ public class DefendInput : MonoBehaviour
 
     void Update()
     {
-        // Hold to defend
-        bool defending = Keyboard.current.spaceKey.isPressed;
+        // Hold RIGHT mouse button to defend
+        bool defending = Mouse.current != null &&
+                         Mouse.current.rightButton.isPressed;
+
         anim.SetBool("Defend", defending);
     }
 
